@@ -1,2 +1,8 @@
-# لا توجد مكتبات خارجية مطلوبة
-# جميع المكتبات المستخدمة هي مكتبات Python المدمجة
+qiskit
+numpy
+tensorflow
+cryptography
+scapy
+paramiko
+requests
+pillow

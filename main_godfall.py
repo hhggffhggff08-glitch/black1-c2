@@ -208,7 +208,7 @@ from omniscient_radar.network_mapper import get_network_mapper
 from omniscient_radar.frequency_scanner import get_frequency_scanner
 from omniscient_radar.signal_analyzer import get_signal_analyzer
 from omniscient_radar.heatmap_generator import get_heatmap_generator
-from omniscient_radar.3d_radar import get_three_d_radar
+from omniscient_radar.radar_3d import get_three_d_radar
 from omniscient_radar.real_time_tracker import get_real_time_tracker
 from omniscient_radar.historical_data import get_historical_data
 from omniscient_radar.predictive_tracker import get_predictive_tracker
