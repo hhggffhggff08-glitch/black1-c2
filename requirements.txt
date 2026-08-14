@@ -1,6 +1,5 @@
 qiskit
 numpy
-tensorflow
 cryptography
 scapy
 paramiko
