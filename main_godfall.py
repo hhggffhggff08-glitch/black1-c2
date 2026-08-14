@@ -21,6 +21,9 @@ from datetime import datetime
 # IMPORT ALL MODULES FROM ALL FOLDERS
 # ============================================================================
 
+# جميع الوحدات تم تعليقها لأن الملفات غير موجودة في المستودع
+# سيتم تشغيل الإسكربت في الوضع الأساسي (BASIC MODE)
+
 # Quantum Core - تم تعليقها لأن الملفات غير موجودة
 # from quantum_core.q_engine import get_quantum_engine
 # from quantum_core.q_random import get_quantum_random
@@ -257,205 +260,8 @@ class OmegaGodfallEngine:
         """Initialize all modules - تم تبسيطها لتجنب الأخطاء"""
         print("🌀 Initializing OMEGA_SPECTRE_GODFALL modules...")
         
-        # تم تعليق جميع الوحدات لأن الملفات غير موجودة
-        # سيتم تشغيل الإسكربت بشكل أساسي فقط
-        
-        # Quantum Core - تم تعليقها
-        # self.modules['quantum_engine'] = get_quantum_engine()
-        # self.modules['quantum_random'] = get_quantum_random()
-        # self.modules['quantum_entanglement'] = get_quantum_entanglement()
-        
-        # AI Autopilot - تم تعليقها
-        # self.modules['neural_selector'] = get_neural_selector()
-        # self.modules['attack_planner'] = get_attack_planner()
-        # self.modules['evasion_learner'] = get_evasion_learner()
-        # self.modules['self_improvement'] = get_self_improvement()
-        
-        # Mutation Engine - تم تعليقها
-        # self.modules['polymorphic_gen'] = get_polymorphic_generator()
-        # self.modules['metamorphic_engine'] = get_metamorphic_engine()
-        # self.modules['signature_killer'] = get_signature_killer()
-        
-        # Mesh Network - تم تعليقها
-        # self.modules['p2p_node'] = get_p2p_node()
-        # self.modules['zombie_spreader'] = get_zombie_spreader()
-        # self.modules['decentralized_c2'] = get_decentralized_c2()
-        
-        # Military Jamming - تم تعليقها
-        # self.modules['freq_jammer'] = get_frequency_jammer()
-        # self.modules['radar_blinder'] = get_radar_blinder()
-        # self.modules['gps_spoofer'] = get_gps_spoofer()
-        # self.modules['comm_disruptor'] = get_communication_disruptor()
-        
-        # Quantum Resistant - تم تعليقها
-        # self.modules['kyber_encrypt'] = get_kyber_encrypt()
-        # self.modules['dilithium_sign'] = get_dilithium_sign()
-        # self.modules['sphincs_hash'] = get_sphincs_hash()
-        
-        # Zero Day Vault - تم تعليقها
-        # self.modules['android_zero_click'] = get_android_zero_click()
-        # self.modules['ios_zero_click'] = get_ios_zero_click()
-        # self.modules['windows_zero_click'] = get_windows_zero_click()
-        # self.modules['iot_zero_click'] = get_iot_zero_click()
-        # self.modules['military_zero_click'] = get_military_zero_click()
-        
-        # Full Control - تم تعليقها
-        # self.modules['brain_interface'] = get_brain_interface()
-        # self.modules['satellite_hack'] = get_satellite_hack()
-        # self.modules['nuclear_bypass'] = get_nuclear_bypass()
-        # self.modules['global_power_grid'] = get_global_power_grid()
-        
-        # God Radar - تم تعليقها
-        # self.modules['quantum_radar_core'] = get_quantum_radar_core()
-        # self.modules['target_tracker'] = get_target_tracker()
-        # self.modules['stealth_detector'] = get_stealth_detector()
-        # self.modules['universal_scanner'] = get_universal_scanner()
-        
-        # Instant Breach - تم تعليقها
-        # self.modules['zero_click_engine'] = get_zero_click_engine()
-        # self.modules['payload_injector'] = get_payload_injector()
-        # self.modules['trace_eraser'] = get_trace_eraser()
-        
-        # New Dimensions - تم تعليقها
-        # self.modules['time_manipulator'] = get_time_manipulator()
-        # self.modules['reality_distorter'] = get_reality_distorter()
-        # self.modules['parallel_universe'] = get_parallel_universe()
-        # self.modules['consciousness_upload'] = get_consciousness_upload()
-        # self.modules['weather_controller'] = get_weather_controller()
-        # self.modules['financial_crasher'] = get_financial_crasher()
-        # self.modules['media_manipulator'] = get_media_manipulator()
-        # self.modules['social_engine'] = get_social_engine()
-        # self.modules['bio_hack'] = get_bio_hack()
-        # self.modules['quantum_teleport'] = get_quantum_teleport()
-        # self.modules['ai_god_mode'] = get_ai_god_mode()
-        
-        # Ultimate Powers - تم تعليقها
-        # self.modules['soul_reader'] = get_soul_reader()
-        # self.modules['memory_eraser'] = get_memory_eraser()
-        # self.modules['emotion_controller'] = get_emotion_controller()
-        # self.modules['dream_injector'] = get_dream_injector()
-        # self.modules['dna_modifier'] = get_dna_modifier()
-        # self.modules['time_traveler'] = get_time_traveler()
-        # self.modules['black_hole_gen'] = get_black_hole_generator()
-        # self.modules['universe_simulator'] = get_universe_simulator()
-        # self.modules['god_voice'] = get_god_voice()
-        # self.modules['angel_of_death'] = get_angel_of_death()
-        # self.modules['resurrection'] = get_resurrection()
-        # self.modules['chaos_engine'] = get_chaos_engine()
-        # self.modules['omnipotence'] = get_omnipotence()
-        
-        # Data Weapons - تم تعليقها
-        # self.modules['data_tsunami'] = get_data_tsunami()
-        # self.modules['storage_bomb'] = get_storage_bomb()
-        # self.modules['phone_burner'] = get_phone_burner()
-        # self.modules['infinite_loop'] = get_infinite_loop()
-        # self.modules['memory_overflow'] = get_memory_overflow()
-        # self.modules['battery_drainer'] = get_battery_drainer()
-        # self.modules['cpu_melter'] = get_cpu_melter()
-        # self.modules['gpu_fryer'] = get_gpu_fryer()
-        # self.modules['network_flooder'] = get_network_flooder()
-        # self.modules['android_killer'] = get_android_killer()
-        
-        # Global Domination - تم تعليقها
-        # self.modules['global_scanner'] = get_global_scanner()
-        # self.modules['mass_breach'] = get_mass_breach()
-        # self.modules['corporate_killer'] = get_corporate_killer()
-        # self.modules['stock_crasher'] = get_stock_crasher()
-        # self.modules['global_blackout'] = get_global_blackout()
-        # self.modules['world_controller'] = get_world_controller()
-        
-        # Aerial Supremacy - تم تعليقها
-        # self.modules['plane_hijacker'] = get_plane_hijacker()
-        # self.modules['military_jet'] = get_military_jet()
-        # self.modules['drone_swarm'] = get_drone_swarm()
-        # self.modules['air_traffic'] = get_air_traffic()
-        # self.modules['missile_commander'] = get_missile_commander()
-        # self.modules['sky_controller'] = get_sky_controller()
-        
-        # Internet God - تم تعليقها
-        # self.modules['dns_controller'] = get_dns_controller()
-        # self.modules['router_hijacker'] = get_router_hijacker()
-        # self.modules['isp_controller'] = get_isp_controller()
-        # self.modules['backbone_hacker'] = get_backbone_hacker()
-        # self.modules['undersea_cable'] = get_undersea_cable()
-        # self.modules['satellite_internet'] = get_satellite_internet()
-        # self.modules['traffic_redirector'] = get_traffic_redirector()
-        # self.modules['bandwidth_stealer'] = get_bandwidth_stealer()
-        # self.modules['internet_shutdown'] = get_internet_shutdown()
-        # self.modules['global_speed_control'] = get_global_speed_control()
-        # self.modules['content_filter'] = get_content_filter()
-        # self.modules['web_redirector'] = get_web_redirector()
-        
-        # Annihilation Arsenal - تم تعليقها
-        # self.modules['device_combustor'] = get_device_combustor()
-        # self.modules['camera_melter'] = get_camera_melter()
-        # self.modules['screen_fryer'] = get_screen_fryer()
-        # self.modules['battery_exploder'] = get_battery_exploder()
-        # self.modules['motherboard_fryer'] = get_motherboard_fryer()
-        # self.modules['hard_drive_corrupter'] = get_hard_drive_corrupter()
-        # self.modules['device_bricker'] = get_device_bricker()
-        # self.modules['total_oblivion'] = get_total_oblivion()
-        # self.modules['ram_incinerator'] = get_ram_incinerator()
-        # self.modules['speaker_destroyer'] = get_speaker_destroyer()
-        # self.modules['microphone_killer'] = get_microphone_killer()
-        # self.modules['wifi_chip_killer'] = get_wifi_chip_killer()
-        # self.modules['bluetooth_fryer'] = get_bluetooth_fryer()
-        # self.modules['nfc_destroyer'] = get_nfc_destroyer()
-        # self.modules['fingerprint_eraser'] = get_fingerprint_eraser()
-        # self.modules['face_id_corrupter'] = get_face_id_corrupter()
-        # self.modules['gyro_fryer'] = get_gyro_fryer()
-        # self.modules['accelerometer_melter'] = get_accelerometer_melter()
-        # self.modules['proximity_sensor_killer'] = get_proximity_sensor_killer()
-        # self.modules['ambient_light_destroyer'] = get_ambient_light_destroyer()
-        # self.modules['compass_corrupter'] = get_compass_corrupter()
-        # self.modules['barometer_fryer'] = get_barometer_fryer()
-        # self.modules['thermometer_melter'] = get_thermometer_melter()
-        # self.modules['humidity_sensor_killer'] = get_humidity_sensor_killer()
-        # self.modules['motor_controller_burner'] = get_motor_controller_burner()
-        # self.modules['servo_destroyer'] = get_servo_destroyer()
-        # self.modules['led_fryer'] = get_led_fryer()
-        # self.modules['display_connector_melter'] = get_display_connector_melter()
-        # self.modules['charging_port_killer'] = get_charging_port_killer()
-        # self.modules['headphone_jack_destroyer'] = get_headphone_jack_destroyer()
-        # self.modules['sim_card_eraser'] = get_sim_card_eraser()
-        # self.modules['sd_card_corrupter'] = get_sd_card_corrupter()
-        # self.modules['firmware_wiper'] = get_firmware_wiper()
-        # self.modules['bios_killer'] = get_bios_killer()
-        # self.modules['uefi_destroyer'] = get_uefi_destroyer()
-        # self.modules['bootloader_eraser'] = get_bootloader_eraser()
-        # self.modules['system_corrupter'] = get_system_corrupter()
-        # self.modules['data_shredder'] = get_data_shredder()
-        # self.modules['file_system_destroyer'] = get_file_system_destroyer()
-        # self.modules['partition_table_wiper'] = get_partition_table_wiper()
-        # self.modules['master_boot_eraser'] = get_master_boot_eraser()
-        # self.modules['drive_secure_wiper'] = get_drive_secure_wiper()
-        # self.modules['recovery_partition_killer'] = get_recovery_partition_killer()
-        # self.modules['cpu_crisper'] = get_cpu_crisper()
-        # self.modules['gpu_melter'] = get_gpu_melter()
-        
-        # Omniscient Radar - تم تعليقها
-        # self.modules['omniscient_radar'] = get_omniscient_radar_core()
-        # self.modules['global_mapper'] = get_global_mapper()
-        # self.modules['vehicle_tracker'] = get_vehicle_tracker()
-        # self.modules['router_detector'] = get_router_detector()
-        # self.modules['satellite_locator'] = get_satellite_locator()
-        # self.modules['drone_detector'] = get_drone_detector()
-        # self.modules['plane_tracker'] = get_plane_tracker()
-        # self.modules['ship_tracker'] = get_ship_tracker()
-        # self.modules['device_finder'] = get_device_finder()
-        # self.modules['network_mapper'] = get_network_mapper()
-        # self.modules['frequency_scanner'] = get_frequency_scanner()
-        # self.modules['signal_analyzer'] = get_signal_analyzer()
-        # self.modules['heatmap_generator'] = get_heatmap_generator()
-        # self.modules['three_d_radar'] = get_three_d_radar()
-        # self.modules['real_time_tracker'] = get_real_time_tracker()
-        # self.modules['historical_data'] = get_historical_data()
-        # self.modules['predictive_tracker'] = get_predictive_tracker()
-        # self.modules['threat_identifier'] = get_threat_identifier()
-        # self.modules['stealth_detector'] = get_stealth_detector()
-        # self.modules['underground_scanner'] = get_underground_scanner()
-        # self.modules['underwater_scanner'] = get_underwater_scanner()
-        # self.modules['space_scanner'] = get_space_scanner()
+        # جميع الوحدات تم تعليقها لأن الملفات غير موجودة
+        # سيتم تشغيل الإسكربت في الوضع الأساسي (BASIC MODE)
         
         self.initialized = True
         self.status = "READY"
@@ -463,22 +269,75 @@ class OmegaGodfallEngine:
         print("⚠️ تم تشغيل الوضع الأساسي - بعض الوحدات غير متوفرة")
     
     def run(self):
-        """Run the main engine"""
-        print("\n🔥 OMEGA_SPECTRE_GODFALL is now ACTIVE (BASIC MODE)")
+        """Run the main engine as a server - يعمل على Render"""
+        print("\n🔥 OMEGA_SPECTRE_GODFALL is now ACTIVE (SERVER MODE)")
         print("☠️ The digital world is yours to command\n")
         
-        while True:
-            try:
-                command = input("⚡ $ ")
-                self._process_command(command)
-            except KeyboardInterrupt:
-                print("\n💀 Shutting down OMEGA_SPECTRE_GODFALL...")
-                sys.exit(0)
-            except Exception as e:
-                print(f"⚠️ Error: {e}")
+        try:
+            from http.server import HTTPServer, BaseHTTPRequestHandler
+            
+            class Handler(BaseHTTPRequestHandler):
+                def do_GET(self):
+                    self.send_response(200)
+                    self.send_header('Content-type', 'text/html')
+                    self.end_headers()
+                    
+                    # صفحة HTML بسيطة
+                    html = f"""
+                    <!DOCTYPE html>
+                    <html>
+                    <head>
+                        <meta charset="UTF-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <title>⚡ OMEGA SPECTRE GODFALL</title>
+                        <style>
+                            * {{ margin: 0; padding: 0; box-sizing: border-box; }}
+                            body {{
+                                background: #0a0a0a;
+                                color: #00ff41;
+                                font-family: 'Courier New', monospace;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                height: 100vh;
+                                flex-direction: column;
+                                text-align: center;
+                            }}
+                            h1 {{ font-size: 48px; text-shadow: 0 0 40px rgba(0,255,65,0.2); }}
+                            .status {{ color: #00ff41; font-size: 18px; margin-top: 10px; }}
+                            .time {{ color: rgba(255,255,255,0.2); font-size: 14px; margin-top: 20px; }}
+                            .footer {{ color: rgba(255,255,255,0.05); font-size: 12px; margin-top: 30px; }}
+                            .scan {{ width: 200px; height: 2px; background: linear-gradient(90deg, transparent, #00ff41, transparent); margin: 20px auto; animation: scan 2s ease-in-out infinite; }}
+                            @keyframes scan {{ 0% {{ width: 20%; opacity: 0.1; }} 50% {{ width: 80%; opacity: 0.5; }} 100% {{ width: 20%; opacity: 0.1; }} }}
+                            .dot {{ display: inline-block; width: 10px; height: 10px; background: #00ff41; border-radius: 50%; animation: blink 1s infinite; margin-right: 8px; }}
+                            @keyframes blink {{ 0%,100% {{ opacity: 1; }} 50% {{ opacity: 0.2; }} }}
+                        </style>
+                    </head>
+                    <body>
+                        <div class="scan"></div>
+                        <h1>⌘ OMEGA SPECTRE</h1>
+                        <h1 style="font-size:24px;color:#ff0040;text-shadow:0 0 20px rgba(255,0,64,0.2);">GODFALL</h1>
+                        <div class="status"><span class="dot"></span> SYSTEM ACTIVE</div>
+                        <div class="status" style="font-size:14px;color:rgba(255,255,255,0.3);">⚡ The Architect (2099)</div>
+                        <div class="time">🕐 {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</div>
+                        <div class="footer">✦ نظام آمن ✦ مشفر بالكامل ✦</div>
+                    </body>
+                    </html>
+                    """
+                    self.wfile.write(html.encode())
+            
+            port = int(os.environ.get('PORT', 10000))
+            server = HTTPServer(('0.0.0.0', port), Handler)
+            print(f"✅ Server running on port {port}")
+            print(f"🌐 Open your app at: https://your-app.onrender.com")
+            server.serve_forever()
+            
+        except Exception as e:
+            print(f"❌ Server error: {e}")
+            sys.exit(1)
     
     def _process_command(self, command):
-        """Process user commands"""
+        """Process user commands - للاستخدام المحلي"""
         if not command:
             return
         
